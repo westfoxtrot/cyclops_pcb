@@ -53,23 +53,23 @@ $EndDescr
 $Comp
 L C_Small C7
 U 1 1 5A32767B
-P 1425 3050
-F 0 "C7" H 1435 3120 50  0000 L CNN
-F 1 "22p" H 1435 2970 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1425 3050 50  0001 C CNN
-F 3 "" H 1425 3050 50  0001 C CNN
-	1    1425 3050
+P 2250 3050
+F 0 "C7" H 2260 3120 50  0000 L CNN
+F 1 "22p" H 2260 2970 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2250 3050 50  0001 C CNN
+F 3 "" H 2250 3050 50  0001 C CNN
+	1    2250 3050
 	1    0    0    -1  
 $EndComp
 $Comp
 L C_Small C8
 U 1 1 5A3276EA
-P 2250 3050
-F 0 "C8" H 2260 3120 50  0000 L CNN
-F 1 "22p" H 2260 2970 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2250 3050 50  0001 C CNN
-F 3 "" H 2250 3050 50  0001 C CNN
-	1    2250 3050
+P 1425 3050
+F 0 "C8" H 1435 3120 50  0000 L CNN
+F 1 "22p" H 1435 2970 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1425 3050 50  0001 C CNN
+F 3 "" H 1425 3050 50  0001 C CNN
+	1    1425 3050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -110,10 +110,10 @@ U 1 1 5A327837
 P 1850 2775
 F 0 "X1" H 1850 2925 60  0000 C CNN
 F 1 "XTAL_GND" H 1850 2625 60  0000 C CNN
-F 2 "Crystals:Crystal_SMD_0603-4pin_6.0x3.5mm_HandSoldering" H 1850 2775 60  0001 C CNN
+F 2 "Crystals:Crystal_SMD_SeikoEpson_FA238-4pin_3.2x2.5mm_HandSoldering" H 1850 2775 60  0001 C CNN
 F 3 "" H 1850 2775 60  0000 C CNN
 	1    1850 2775
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	1425 2775 1550 2775
