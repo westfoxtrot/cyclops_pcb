@@ -31,10 +31,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:cartel
-LIBS:keyboard_parts
-LIBS:mkl27z256vfm4
-LIBS:ws2812b
 LIBS:cyclops-cache
 EELAYER 25 0
 EELAYER END
@@ -73,7 +69,7 @@ F 3 "" H 1425 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2150 2775 2250 2775
+	1950 2775 2250 2775
 Wire Wire Line
 	2250 2675 2250 2950
 Wire Wire Line
@@ -91,7 +87,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 3275 2250 3150
 Wire Wire Line
-	1850 2975 1850 3350
+	1850 2900 1850 3350
 Connection ~ 1850 3275
 $Comp
 L GND #PWR7
@@ -104,19 +100,8 @@ F 3 "" H 1850 3350 50  0001 C CNN
 	1    1850 3350
 	1    0    0    -1  
 $EndComp
-$Comp
-L XTAL_GND X1
-U 1 1 5A327837
-P 1850 2775
-F 0 "X1" H 1850 2925 60  0000 C CNN
-F 1 "XTAL_GND" H 1850 2625 60  0000 C CNN
-F 2 "Crystals:Crystal_SMD_SeikoEpson_FA238-4pin_3.2x2.5mm_HandSoldering" H 1850 2775 60  0001 C CNN
-F 3 "" H 1850 2775 60  0000 C CNN
-	1    1850 2775
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
-	1425 2775 1550 2775
+	1425 2775 1750 2775
 $Comp
 L C_Small C1
 U 1 1 5A3283C4
@@ -2475,4 +2460,21 @@ $EndComp
 Connection ~ 6100 2975
 Wire Wire Line
 	2850 1650 2450 1650
+$Comp
+L Crystal_GND24_Small X1
+U 1 1 5A4CE494
+P 1850 2775
+F 0 "X1" H 1900 2950 50  0000 L CNN
+F 1 "Crystal_3225" H 1900 2875 50  0000 L CNN
+F 2 "Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm_HandSoldering" H 1850 2775 50  0001 C CNN
+F 3 "" H 1850 2775 50  0001 C CNN
+	1    1850 2775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 2650 1625 2650
+Wire Wire Line
+	1625 2650 1625 2900
+Wire Wire Line
+	1625 2900 1850 2900
 $EndSCHEMATC
