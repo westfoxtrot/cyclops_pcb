@@ -313,7 +313,7 @@ U 1 1 5A32939D
 P 6625 2725
 F 0 "J1" H 6225 2675 60  0000 C CNN
 F 1 "USB_mini_micro_B" H 6475 2975 60  0001 C CNN
-F 2 "keyboard_parts:USB_miniB_hirose_5ST_hand" H 6575 2725 60  0001 C CNN
+F 2 "keyboard_parts:USB_miniB_hirose_5S8" H 6575 2725 60  0001 C CNN
 F 3 "" H 6575 2725 60  0000 C CNN
 	1    6625 2725
 	-1   0    0    -1  
@@ -2456,43 +2456,57 @@ Wire Wire Line
 Wire Wire Line
 	5250 2575 5250 2675
 Connection ~ 5250 2675
-Text Label 2850 2975 2    60   ~ 0
-ROW0
 Text Label 2850 3075 2    60   ~ 0
+ROW0
+Text Label 2850 2975 2    60   ~ 0
 ROW1
-Text Label 2850 3175 2    60   ~ 0
-ROW2
-Text Label 2850 3275 2    60   ~ 0
-ROW3
-Text Label 2850 3375 2    60   ~ 0
-ROW4
-Text Label 2850 3475 2    60   ~ 0
-COL0
 Text Label 2850 3575 2    60   ~ 0
-COL1
+ROW2
 Text Label 2850 3675 2    60   ~ 0
-COL2
-Text Label 2850 3875 2    60   ~ 0
-COL3
-Text Label 2850 3975 2    60   ~ 0
-COL4
-Text Label 2850 4075 2    60   ~ 0
-COL5
+ROW3
 Text Label 5000 3175 0    60   ~ 0
+ROW4
+Text Label 2850 3275 2    60   ~ 0
+COL0
+Text Label 2850 3175 2    60   ~ 0
+COL1
+Text Label 2850 3375 2    60   ~ 0
+COL2
+Text Label 2850 3475 2    60   ~ 0
+COL3
+Text Label 2850 3875 2    60   ~ 0
+COL4
+Text Label 2850 3975 2    60   ~ 0
+COL5
+Text Label 2850 4075 2    60   ~ 0
 COL6
-Text Label 5000 3275 0    60   ~ 0
+Text Label 5000 4075 0    60   ~ 0
 COL7
-Text Label 5000 3475 0    60   ~ 0
-COL8
-Text Label 5000 3575 0    60   ~ 0
-COL9
-Text Label 5000 3675 0    60   ~ 0
-COL10
-Text Label 5000 3775 0    60   ~ 0
-COL11
-Text Label 5000 3875 0    60   ~ 0
-COL12
 Text Label 5000 3975 0    60   ~ 0
+COL8
+Text Label 5000 3875 0    60   ~ 0
+COL9
+Text Label 5000 3775 0    60   ~ 0
+COL10
+Text Label 5000 3675 0    60   ~ 0
+COL11
+Text Label 5000 3475 0    60   ~ 0
+COL12
+Text Label 5000 3575 0    60   ~ 0
 COL13
-NoConn ~ 5000 4075
+NoConn ~ 5000 3275
+Connection ~ 9300 6650
+Connection ~ 4825 4325
+$Comp
+L GND #PWR010
+U 1 1 5A4D63E6
+P 6100 2975
+F 0 "#PWR010" H 6100 2725 50  0001 C CNN
+F 1 "GND" H 6100 2825 50  0000 C CNN
+F 2 "" H 6100 2975 50  0001 C CNN
+F 3 "" H 6100 2975 50  0001 C CNN
+	1    6100 2975
+	1    0    0    -1  
+$EndComp
+Connection ~ 6100 2975
 $EndSCHEMATC

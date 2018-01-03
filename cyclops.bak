@@ -113,7 +113,7 @@ F 1 "XTAL_GND" H 1850 2625 60  0000 C CNN
 F 2 "Crystals:Crystal_SMD_SeikoEpson_FA238-4pin_3.2x2.5mm_HandSoldering" H 1850 2775 60  0001 C CNN
 F 3 "" H 1850 2775 60  0000 C CNN
 	1    1850 2775
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	1425 2775 1550 2775
