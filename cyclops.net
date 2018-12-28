@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source E:\Users\west1\Documents\Keyboards\Cyclops\cyclops.sch)
-    (date "09/11/18 19:21:28")
+    (date "12/28/18 16:25:03")
     (tool "Eeschema (5.0.0)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -911,7 +911,7 @@
       (tstamp 5B9C30A2))
     (comp (ref X1)
       (value Crystal_3225)
-      (footprint Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm_HandSoldering)
+      (footprint Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm)
       (libsource (lib Device) (part Crystal_GND24_Small) (description "Four pin crystal, two ground/package pins (pin2 and 4) small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A4CE494))
@@ -1085,13 +1085,13 @@
         (pin (num 2) (name 2) (type passive)))))
   (libraries
     (library (logical Device)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Device.lib"))
+      (uri "C:\\Users\\Max\\Documents\\keyboard design\\pcbs\\kicad_libraries\\symbols/Device.lib"))
     (library (logical conn)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/conn.lib"))
+      (uri "C:\\Users\\Max\\Documents\\keyboard design\\pcbs\\kicad_libraries\\symbols/conn.lib"))
     (library (logical keyboard_parts)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/keyboard_parts.lib"))
+      (uri "C:\\Users\\Max\\Documents\\keyboard design\\pcbs\\kicad_libraries\\symbols/keyboard_parts.lib"))
     (library (logical switches)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/switches.lib")))
+      (uri "C:\\Users\\Max\\Documents\\keyboard design\\pcbs\\kicad_libraries\\symbols/switches.lib")))
   (nets
     (net (code 1) (name "Net-(D62-Pad2)")
       (node (ref K62) (pin 2))
