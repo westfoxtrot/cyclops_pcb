@@ -1,5 +1,5 @@
-Drill report for C:/Users/Max/Documents/keyboard design/pcbs/Cyclops/cyclops.kicad_pcb
-Created on 12/28/18 22:46:09
+Drill report for C:\Users\Max\Documents\keyboard design\pcbs\Cyclops\cyclops.kicad_pcb
+Created on 12/29/18 17:22:34
 
 Copper Layer Stackup:
     =============================================================
@@ -10,13 +10,13 @@ Copper Layer Stackup:
 Drill file 'cyclops-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0.40mm  0.016"  (84 holes)
+    T1  0.40mm  0.016"  (95 holes)
     T2  0.70mm  0.028"  (8 holes)  (with 8 slots)
     T3  1.00mm  0.039"  (6 holes)
     T4  1.47mm  0.058"  (136 holes)
     T5  2.20mm  0.087"  (7 holes)  (with 7 slots)
 
-    Total plated holes count 241
+    Total plated holes count 252
 
 
 Drill file 'cyclops-NPTH.drl' contains
