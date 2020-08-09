@@ -30,4 +30,5 @@
   (lib (name keyboard_parts)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/keyboard_parts.lib)(options "")(descr ""))
   (lib (name mkl27z256vfm4)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/mkl27z256vfm4.lib)(options "")(descr ""))
   (lib (name ws2812b)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/ws2812b.lib)(options "")(descr ""))
+  (lib (name cyclops-rescue)(type Legacy)(uri ${KIPRJMOD}/cyclops-rescue.lib)(options "")(descr ""))
 )

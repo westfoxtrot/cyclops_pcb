@@ -1,85 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Device_C_Small
+# ATMEGA32U4-keyboard_parts
 #
-DEF Device_C_Small C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "Device_C_Small" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 13 -60 -20 60 -20 N
-P 2 0 1 12 -60 20 60 20 N
-X ~ 1 0 100 80 D 50 50 1 1 P
-X ~ 2 0 -100 80 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_D
-#
-DEF Device_D D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "Device_D" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TO-???*
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 10 -50 50 -50 -50 N
-P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_R
-#
-DEF Device_R R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "Device_R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_R_Small
-#
-DEF Device_R_Small R 0 10 N N 1 F N
-F0 "R" 30 20 50 H V L CNN
-F1 "Device_R_Small" 30 -40 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -30 70 30 -70 0 1 8 N
-X ~ 1 0 100 30 D 50 50 1 1 P
-X ~ 2 0 -100 30 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# cyclops-rescue_ATMEGA32U4-keyboard_parts
-#
-DEF cyclops-rescue_ATMEGA32U4-keyboard_parts U 0 40 Y Y 1 F N
+DEF ATMEGA32U4-keyboard_parts U 0 40 Y Y 1 F N
 F0 "U" 0 -1250 60 H V C CNN
-F1 "cyclops-rescue_ATMEGA32U4-keyboard_parts" 0 1250 60 H V C CNN
+F1 "ATMEGA32U4-keyboard_parts" 0 1250 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -131,11 +57,11 @@ X PB1/SCK 9 -1050 250 300 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# cyclops-rescue_Conn_02x03_Odd_Even-conn
+# Conn_02x03_Odd_Even-conn
 #
-DEF cyclops-rescue_Conn_02x03_Odd_Even-conn J 0 40 Y N 1 F N
+DEF Conn_02x03_Odd_Even-conn J 0 40 Y N 1 F N
 F0 "J" 50 200 50 H V C CNN
-F1 "cyclops-rescue_Conn_02x03_Odd_Even-conn" 50 -200 50 H V C CNN
+F1 "Conn_02x03_Odd_Even-conn" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -163,11 +89,11 @@ X Pin_6 6 300 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# cyclops-rescue_Crystal_GND24_Small-Device
+# Crystal_GND24_Small-Device
 #
-DEF cyclops-rescue_Crystal_GND24_Small-Device Y 0 40 Y N 1 F N
+DEF Crystal_GND24_Small-Device Y 0 40 Y N 1 F N
 F0 "Y" 50 175 50 H V L CNN
-F1 "cyclops-rescue_Crystal_GND24_Small-Device" 50 100 50 H V L CNN
+F1 "Crystal_GND24_Small-Device" 50 100 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -186,11 +112,11 @@ X 4 4 0 125 50 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# cyclops-rescue_KEYSW-keyboard_parts
+# KEYSW-keyboard_parts
 #
-DEF cyclops-rescue_KEYSW-keyboard_parts K? 0 40 Y Y 1 F N
+DEF KEYSW-keyboard_parts K? 0 40 Y Y 1 F N
 F0 "K?" -50 0 60 H V C CNN
-F1 "cyclops-rescue_KEYSW-keyboard_parts" 0 -100 60 H I C CNN
+F1 "KEYSW-keyboard_parts" 0 -100 60 H I C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -202,11 +128,11 @@ X ~ 2 -300 0 50 R 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# cyclops-rescue_SW_Push-switches
+# SW_Push-switches
 #
-DEF cyclops-rescue_SW_Push-switches SW 0 40 N N 1 F N
+DEF SW_Push-switches SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "cyclops-rescue_SW_Push-switches" 0 -60 50 H V C CNN
+F1 "SW_Push-switches" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -219,11 +145,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# cyclops-rescue_USB_mini_micro_B-keyboard_parts
+# USB_mini_micro_B-keyboard_parts
 #
-DEF cyclops-rescue_USB_mini_micro_B-keyboard_parts J 0 40 Y Y 1 F N
+DEF USB_mini_micro_B-keyboard_parts J 0 40 Y Y 1 F N
 F0 "J" -400 -50 60 H V C CNN
-F1 "cyclops-rescue_USB_mini_micro_B-keyboard_parts" -150 250 60 H I C CNN
+F1 "USB_mini_micro_B-keyboard_parts" -150 250 60 H I C CNN
 F2 "" -50 0 60 H V C CNN
 F3 "" -50 0 60 H V C CNN
 DRAW
@@ -234,34 +160,6 @@ X D+ 3 150 -50 200 L 50 50 1 1 B
 X ID 4 150 -150 200 L 50 50 1 1 I
 X GND 5 150 -250 200 L 50 50 1 1 w
 X SHIELD 6 150 -350 200 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_VCC
-#
-DEF power_VCC #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_VCC" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

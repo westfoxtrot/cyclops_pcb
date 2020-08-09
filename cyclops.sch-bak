@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:cyclops-cache
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -143,7 +144,7 @@ Connection ~ 3850 2050
 Wire Wire Line
 	4450 2000 4450 2050
 $Comp
-L cyclops-rescue:SW_Push-switches SW1
+L switches:SW_Push SW1
 U 1 1 5A328C7C
 P 7250 3225
 F 0 "SW1" H 7300 3325 50  0000 L CNN
@@ -213,7 +214,7 @@ Wire Wire Line
 Wire Wire Line
 	10525 3125 10250 3125
 $Comp
-L cyclops-rescue:USB_mini_micro_B-keyboard_parts J1
+L keyboard_parts:USB_mini_micro_B J1
 U 1 1 5A32939D
 P 6700 2375
 F 0 "J1" H 6300 2325 60  0000 C CNN
@@ -268,7 +269,7 @@ F 3 "" H 7900 2525 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K1
+L keyboard_parts:KEYSW K1
 U 1 1 5A32B8B9
 P 1475 5675
 F 0 "K1" H 1425 5675 60  0000 C CNN
@@ -279,7 +280,7 @@ F 3 "" H 1475 5675 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K2
+L keyboard_parts:KEYSW K2
 U 1 1 5A32BAF4
 P 2500 5675
 F 0 "K2" H 2450 5675 60  0000 C CNN
@@ -290,7 +291,7 @@ F 3 "" H 2500 5675 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K3
+L keyboard_parts:KEYSW K3
 U 1 1 5A32BBBD
 P 3500 5675
 F 0 "K3" H 3450 5675 60  0000 C CNN
@@ -301,7 +302,7 @@ F 3 "" H 3500 5675 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K16
+L keyboard_parts:KEYSW K16
 U 1 1 5A32BD5C
 P 3500 6275
 F 0 "K16" H 3450 6275 60  0000 C CNN
@@ -312,7 +313,7 @@ F 3 "" H 3500 6275 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K29
+L keyboard_parts:KEYSW K29
 U 1 1 5A32BED6
 P 3500 6875
 F 0 "K29" H 3450 6875 60  0000 C CNN
@@ -323,7 +324,7 @@ F 3 "" H 3500 6875 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K43
+L keyboard_parts:KEYSW K43
 U 1 1 5A32BF47
 P 3500 7475
 F 0 "K43" H 3450 7475 60  0000 C CNN
@@ -334,7 +335,7 @@ F 3 "" H 3500 7475 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K56
+L keyboard_parts:KEYSW K56
 U 1 1 5A32C0B5
 P 3500 8075
 F 0 "K56" H 3450 8075 60  0000 C CNN
@@ -345,7 +346,7 @@ F 3 "" H 3500 8075 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K42
+L keyboard_parts:KEYSW K42
 U 1 1 5A32C3F4
 P 2500 7475
 F 0 "K42" H 2450 7475 60  0000 C CNN
@@ -356,7 +357,7 @@ F 3 "" H 2500 7475 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K15
+L keyboard_parts:KEYSW K15
 U 1 1 5A32C4DC
 P 1450 6275
 F 0 "K15" H 1400 6275 60  0000 C CNN
@@ -367,7 +368,7 @@ F 3 "" H 1450 6275 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K28
+L keyboard_parts:KEYSW K28
 U 1 1 5A32C559
 P 1450 6875
 F 0 "K28" H 1400 6875 60  0000 C CNN
@@ -378,7 +379,7 @@ F 3 "" H 1450 6875 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K41
+L keyboard_parts:KEYSW K41
 U 1 1 5A32C5D7
 P 1450 7475
 F 0 "K41" H 1400 7475 60  0000 C CNN
@@ -389,7 +390,7 @@ F 3 "" H 1450 7475 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K54
+L keyboard_parts:KEYSW K54
 U 1 1 5A32C662
 P 1450 8075
 F 0 "K54" H 1400 8075 60  0000 C CNN
@@ -657,7 +658,7 @@ Wire Wire Line
 	3800 6275 3875 6275
 Connection ~ 3875 6275
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K4
+L keyboard_parts:KEYSW K4
 U 1 1 5A336D15
 P 4500 5675
 F 0 "K4" H 4450 5675 60  0000 C CNN
@@ -687,7 +688,7 @@ $EndComp
 Wire Wire Line
 	4800 5675 4875 5675
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K5
+L keyboard_parts:KEYSW K5
 U 1 1 5A337BFD
 P 5500 5675
 F 0 "K5" H 5450 5675 60  0000 C CNN
@@ -717,7 +718,7 @@ $EndComp
 Wire Wire Line
 	5800 5675 5875 5675
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K6
+L keyboard_parts:KEYSW K6
 U 1 1 5A339BCF
 P 6500 5675
 F 0 "K6" H 6450 5675 60  0000 C CNN
@@ -747,7 +748,7 @@ $EndComp
 Wire Wire Line
 	6800 5675 6875 5675
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K7
+L keyboard_parts:KEYSW K7
 U 1 1 5A339CB3
 P 7500 5675
 F 0 "K7" H 7450 5675 60  0000 C CNN
@@ -777,7 +778,7 @@ $EndComp
 Wire Wire Line
 	7800 5675 7875 5675
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K8
+L keyboard_parts:KEYSW K8
 U 1 1 5A33A43D
 P 8500 5675
 F 0 "K8" H 8450 5675 60  0000 C CNN
@@ -807,7 +808,7 @@ $EndComp
 Wire Wire Line
 	8800 5675 8875 5675
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K9
+L keyboard_parts:KEYSW K9
 U 1 1 5A33ABC3
 P 9500 5675
 F 0 "K9" H 9450 5675 60  0000 C CNN
@@ -837,7 +838,7 @@ $EndComp
 Wire Wire Line
 	9800 5675 9875 5675
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K10
+L keyboard_parts:KEYSW K10
 U 1 1 5A33AC85
 P 10500 5675
 F 0 "K10" H 10450 5675 60  0000 C CNN
@@ -867,7 +868,7 @@ $EndComp
 Wire Wire Line
 	10800 5675 10875 5675
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K11
+L keyboard_parts:KEYSW K11
 U 1 1 5A33AD61
 P 11500 5675
 F 0 "K11" H 11450 5675 60  0000 C CNN
@@ -897,7 +898,7 @@ $EndComp
 Wire Wire Line
 	11800 5675 11875 5675
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K12
+L keyboard_parts:KEYSW K12
 U 1 1 5A33AE2B
 P 12500 5675
 F 0 "K12" H 12450 5675 60  0000 C CNN
@@ -927,7 +928,7 @@ $EndComp
 Wire Wire Line
 	12800 5675 12875 5675
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K13
+L keyboard_parts:KEYSW K13
 U 1 1 5A33C739
 P 13500 5675
 F 0 "K13" H 13450 5675 60  0000 C CNN
@@ -957,7 +958,7 @@ $EndComp
 Wire Wire Line
 	13800 5675 13875 5675
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K14
+L keyboard_parts:KEYSW K14
 U 1 1 5A33D1CD
 P 14500 5675
 F 0 "K14" H 14450 5675 60  0000 C CNN
@@ -987,7 +988,7 @@ $EndComp
 Wire Wire Line
 	14800 5675 14875 5675
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K55
+L keyboard_parts:KEYSW K55
 U 1 1 5A33DA41
 P 2500 8075
 F 0 "K55" H 2450 8075 60  0000 C CNN
@@ -1026,7 +1027,7 @@ Connection ~ 11075 6075
 Connection ~ 12075 6075
 Connection ~ 13075 6075
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K17
+L keyboard_parts:KEYSW K17
 U 1 1 5A340D45
 P 4500 6275
 F 0 "K17" H 4450 6275 60  0000 C CNN
@@ -1056,7 +1057,7 @@ $EndComp
 Wire Wire Line
 	4875 6275 4800 6275
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K30
+L keyboard_parts:KEYSW K30
 U 1 1 5A340E49
 P 4500 6875
 F 0 "K30" H 4450 6875 60  0000 C CNN
@@ -1086,7 +1087,7 @@ $EndComp
 Wire Wire Line
 	4875 6875 4800 6875
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K44
+L keyboard_parts:KEYSW K44
 U 1 1 5A340F4F
 P 4500 7475
 F 0 "K44" H 4450 7475 60  0000 C CNN
@@ -1116,7 +1117,7 @@ $EndComp
 Wire Wire Line
 	4875 7475 4800 7475
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K18
+L keyboard_parts:KEYSW K18
 U 1 1 5A341647
 P 5500 6275
 F 0 "K18" H 5450 6275 60  0000 C CNN
@@ -1146,7 +1147,7 @@ $EndComp
 Wire Wire Line
 	5875 6275 5800 6275
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K31
+L keyboard_parts:KEYSW K31
 U 1 1 5A341755
 P 5500 6875
 F 0 "K31" H 5450 6875 60  0000 C CNN
@@ -1176,7 +1177,7 @@ $EndComp
 Wire Wire Line
 	5875 6875 5800 6875
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K45
+L keyboard_parts:KEYSW K45
 U 1 1 5A341855
 P 5500 7475
 F 0 "K45" H 5450 7475 60  0000 C CNN
@@ -1206,7 +1207,7 @@ $EndComp
 Wire Wire Line
 	5875 7475 5800 7475
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K19
+L keyboard_parts:KEYSW K19
 U 1 1 5A341933
 P 6500 6275
 F 0 "K19" H 6450 6275 60  0000 C CNN
@@ -1236,7 +1237,7 @@ $EndComp
 Wire Wire Line
 	6875 6275 6800 6275
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K32
+L keyboard_parts:KEYSW K32
 U 1 1 5A341A4B
 P 6500 6875
 F 0 "K32" H 6450 6875 60  0000 C CNN
@@ -1266,7 +1267,7 @@ $EndComp
 Wire Wire Line
 	6875 6875 6800 6875
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K46
+L keyboard_parts:KEYSW K46
 U 1 1 5A341B0D
 P 6500 7475
 F 0 "K46" H 6450 7475 60  0000 C CNN
@@ -1296,7 +1297,7 @@ $EndComp
 Wire Wire Line
 	6875 7475 6800 7475
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K20
+L keyboard_parts:KEYSW K20
 U 1 1 5A3424ED
 P 7500 6275
 F 0 "K20" H 7450 6275 60  0000 C CNN
@@ -1326,7 +1327,7 @@ $EndComp
 Wire Wire Line
 	7875 6275 7800 6275
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K33
+L keyboard_parts:KEYSW K33
 U 1 1 5A342613
 P 7500 6875
 F 0 "K33" H 7450 6875 60  0000 C CNN
@@ -1356,7 +1357,7 @@ $EndComp
 Wire Wire Line
 	7875 6875 7800 6875
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K47
+L keyboard_parts:KEYSW K47
 U 1 1 5A342723
 P 7500 7475
 F 0 "K47" H 7450 7475 60  0000 C CNN
@@ -1386,7 +1387,7 @@ $EndComp
 Wire Wire Line
 	7875 7475 7800 7475
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K57
+L keyboard_parts:KEYSW K57
 U 1 1 5A34282D
 P 7500 8075
 F 0 "K57" H 7450 8075 60  0000 C CNN
@@ -1416,7 +1417,7 @@ $EndComp
 Wire Wire Line
 	7875 8075 7800 8075
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K21
+L keyboard_parts:KEYSW K21
 U 1 1 5A343A31
 P 8500 6275
 F 0 "K21" H 8450 6275 60  0000 C CNN
@@ -1446,7 +1447,7 @@ $EndComp
 Wire Wire Line
 	8875 6275 8800 6275
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K34
+L keyboard_parts:KEYSW K34
 U 1 1 5A343B43
 P 8500 6875
 F 0 "K34" H 8450 6875 60  0000 C CNN
@@ -1476,7 +1477,7 @@ $EndComp
 Wire Wire Line
 	8875 6875 8800 6875
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K48
+L keyboard_parts:KEYSW K48
 U 1 1 5A343C4B
 P 8500 7475
 F 0 "K48" H 8450 7475 60  0000 C CNN
@@ -1506,7 +1507,7 @@ $EndComp
 Wire Wire Line
 	8875 7475 8800 7475
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K22
+L keyboard_parts:KEYSW K22
 U 1 1 5A344205
 P 9500 6275
 F 0 "K22" H 9450 6275 60  0000 C CNN
@@ -1536,7 +1537,7 @@ $EndComp
 Wire Wire Line
 	9875 6275 9800 6275
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K35
+L keyboard_parts:KEYSW K35
 U 1 1 5A3442F9
 P 9500 6875
 F 0 "K35" H 9450 6875 60  0000 C CNN
@@ -1566,7 +1567,7 @@ $EndComp
 Wire Wire Line
 	9875 6875 9800 6875
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K49
+L keyboard_parts:KEYSW K49
 U 1 1 5A34449B
 P 9500 7475
 F 0 "K49" H 9450 7475 60  0000 C CNN
@@ -1596,7 +1597,7 @@ $EndComp
 Wire Wire Line
 	9875 7475 9800 7475
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K23
+L keyboard_parts:KEYSW K23
 U 1 1 5A34465D
 P 10500 6275
 F 0 "K23" H 10450 6275 60  0000 C CNN
@@ -1626,7 +1627,7 @@ $EndComp
 Wire Wire Line
 	10875 6275 10800 6275
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K36
+L keyboard_parts:KEYSW K36
 U 1 1 5A34474F
 P 10500 6875
 F 0 "K36" H 10450 6875 60  0000 C CNN
@@ -1656,7 +1657,7 @@ $EndComp
 Wire Wire Line
 	10875 6875 10800 6875
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K50
+L keyboard_parts:KEYSW K50
 U 1 1 5A344827
 P 10500 7475
 F 0 "K50" H 10450 7475 60  0000 C CNN
@@ -1686,7 +1687,7 @@ $EndComp
 Wire Wire Line
 	10875 7475 10800 7475
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K24
+L keyboard_parts:KEYSW K24
 U 1 1 5A344909
 P 11500 6275
 F 0 "K24" H 11450 6275 60  0000 C CNN
@@ -1716,7 +1717,7 @@ $EndComp
 Wire Wire Line
 	11875 6275 11800 6275
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K37
+L keyboard_parts:KEYSW K37
 U 1 1 5A344A1D
 P 11500 6875
 F 0 "K37" H 11450 6875 60  0000 C CNN
@@ -1746,7 +1747,7 @@ $EndComp
 Wire Wire Line
 	11875 6875 11800 6875
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K51
+L keyboard_parts:KEYSW K51
 U 1 1 5A344B33
 P 11500 7475
 F 0 "K51" H 11450 7475 60  0000 C CNN
@@ -1776,7 +1777,7 @@ $EndComp
 Wire Wire Line
 	11875 7475 11800 7475
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K25
+L keyboard_parts:KEYSW K25
 U 1 1 5A344C8F
 P 12500 6275
 F 0 "K25" H 12450 6275 60  0000 C CNN
@@ -1806,7 +1807,7 @@ $EndComp
 Wire Wire Line
 	12875 6275 12800 6275
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K38
+L keyboard_parts:KEYSW K38
 U 1 1 5A345901
 P 12500 6875
 F 0 "K38" H 12450 6875 60  0000 C CNN
@@ -1836,7 +1837,7 @@ $EndComp
 Wire Wire Line
 	12875 6875 12800 6875
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K52
+L keyboard_parts:KEYSW K52
 U 1 1 5A345A09
 P 12500 7475
 F 0 "K52" H 12450 7475 60  0000 C CNN
@@ -1866,7 +1867,7 @@ $EndComp
 Wire Wire Line
 	12875 7475 12800 7475
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K26
+L keyboard_parts:KEYSW K26
 U 1 1 5A3463D3
 P 13500 6275
 F 0 "K26" H 13450 6275 60  0000 C CNN
@@ -1896,7 +1897,7 @@ $EndComp
 Wire Wire Line
 	13875 6275 13800 6275
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K39
+L keyboard_parts:KEYSW K39
 U 1 1 5A346513
 P 13500 6875
 F 0 "K39" H 13450 6875 60  0000 C CNN
@@ -1926,7 +1927,7 @@ $EndComp
 Wire Wire Line
 	13875 6875 13800 6875
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K59
+L keyboard_parts:KEYSW K59
 U 1 1 5A3466B5
 P 12500 8075
 F 0 "K59" H 12450 8075 60  0000 C CNN
@@ -1956,7 +1957,7 @@ $EndComp
 Wire Wire Line
 	12875 8075 12800 8075
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K58
+L keyboard_parts:KEYSW K58
 U 1 1 5A3486EF
 P 11500 8075
 F 0 "K58" H 11450 8075 60  0000 C CNN
@@ -1986,7 +1987,7 @@ $EndComp
 Wire Wire Line
 	11875 8075 11800 8075
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K27
+L keyboard_parts:KEYSW K27
 U 1 1 5A34C625
 P 14500 6275
 F 0 "K27" H 14450 6275 60  0000 C CNN
@@ -2016,7 +2017,7 @@ $EndComp
 Wire Wire Line
 	14875 6275 14800 6275
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K40
+L keyboard_parts:KEYSW K40
 U 1 1 5A34C765
 P 14500 6875
 F 0 "K40" H 14450 6875 60  0000 C CNN
@@ -2046,7 +2047,7 @@ $EndComp
 Wire Wire Line
 	14875 6875 14800 6875
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K53
+L keyboard_parts:KEYSW K53
 U 1 1 5A34D22F
 P 14500 7475
 F 0 "K53" H 14450 7475 60  0000 C CNN
@@ -2076,7 +2077,7 @@ $EndComp
 Wire Wire Line
 	14875 7475 14800 7475
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K60
+L keyboard_parts:KEYSW K60
 U 1 1 5A34D32B
 P 13500 8075
 F 0 "K60" H 13450 8075 60  0000 C CNN
@@ -2106,7 +2107,7 @@ $EndComp
 Wire Wire Line
 	13875 8075 13800 8075
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K61
+L keyboard_parts:KEYSW K61
 U 1 1 5A34DAED
 P 14500 8075
 F 0 "K61" H 14450 8075 60  0000 C CNN
@@ -2334,7 +2335,7 @@ Wire Wire Line
 Wire Wire Line
 	6875 3850 7100 3850
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K64
+L keyboard_parts:KEYSW K64
 U 1 1 5AD249C5
 P 13500 7475
 F 0 "K64" H 13450 7475 60  0000 C CNN
@@ -2366,7 +2367,7 @@ Wire Wire Line
 Wire Wire Line
 	1825 6675 3075 6675
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K62
+L keyboard_parts:KEYSW K62
 U 1 1 5AD2FA41
 P 15500 5675
 F 0 "K62" H 15450 5675 60  0000 C CNN
@@ -2396,7 +2397,7 @@ $EndComp
 Wire Wire Line
 	15800 5675 15875 5675
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K63
+L keyboard_parts:KEYSW K63
 U 1 1 5AD2FA51
 P 15500 6275
 F 0 "K63" H 15450 6275 60  0000 C CNN
@@ -2435,7 +2436,7 @@ COL14
 Text Label 10250 2425 0    60   ~ 0
 COL14
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K65
+L keyboard_parts:KEYSW K65
 U 1 1 5AD3D014
 P 15500 7475
 F 0 "K65" H 15450 7475 60  0000 C CNN
@@ -2468,7 +2469,7 @@ Connection ~ 15875 7475
 Connection ~ 15875 6275
 Connection ~ 14075 7875
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K66
+L keyboard_parts:KEYSW K66
 U 1 1 5AD3DEA1
 P 15500 8075
 F 0 "K66" H 15450 8075 60  0000 C CNN
@@ -2499,7 +2500,7 @@ Connection ~ 14075 8475
 Wire Wire Line
 	15875 8075 15800 8075
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K67
+L keyboard_parts:KEYSW K67
 U 1 1 5AD400E1
 P 15500 6875
 F 0 "K67" H 15450 6875 60  0000 C CNN
@@ -2531,7 +2532,7 @@ Wire Wire Line
 Connection ~ 15875 6875
 Connection ~ 14075 7275
 $Comp
-L cyclops-rescue:KEYSW-keyboard_parts K64-2
+L keyboard_parts:KEYSW K64-2
 U 1 1 5ADE16E0
 P 13625 7600
 F 0 "K64-2" H 13575 7600 60  0000 C CNN
@@ -2557,7 +2558,7 @@ Wire Wire Line
 	13125 7650 13125 7475
 Connection ~ 13125 7475
 $Comp
-L cyclops-rescue:Conn_02x03_Odd_Even-conn J2
+L conn:Conn_02x03_Odd_Even J2
 U 1 1 5AE59D51
 P 3775 3800
 F 0 "J2" H 3825 4000 50  0000 C CNN
@@ -2858,7 +2859,7 @@ Wire Wire Line
 Wire Wire Line
 	13125 7475 13075 7475
 $Comp
-L cyclops-rescue:ATMEGA32U4-keyboard_parts U1
+L keyboard_parts:ATMEGA32U4 U1
 U 1 1 5B9C30A2
 P 9150 3075
 F 0 "U1" H 9175 4412 60  0000 C CNN
@@ -3024,7 +3025,7 @@ $EndComp
 Wire Wire Line
 	10250 2025 11000 2025
 $Comp
-L cyclops-rescue:Crystal_GND24_Small-Device X1
+L Device:Crystal_GND24_Small X1
 U 1 1 5A4CE494
 P 7100 3725
 F 0 "X1" H 7150 3900 50  0000 L CNN
